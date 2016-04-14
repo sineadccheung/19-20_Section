@@ -36,9 +36,6 @@ RSpec.describe AddressBook do
        expect(new_entry.email).to eq('augusta.king@lovelace.com')
      end
    end
- end
+end
  
 
-class AddressBook
-    attr_reader :entries
-end
